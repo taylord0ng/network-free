@@ -39,4 +39,4 @@ RUN set -ex \
 
 COPY config.json /etc/shadowsocks.json
 
-CMD exec ss-server -c /etc/shadowsocks.json -u
+CMD exec ss-server -c /etc/shadowsocks.json -u -v
